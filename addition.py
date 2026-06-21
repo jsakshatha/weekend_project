@@ -1,6 +1,6 @@
 # add three numbers using functioon
-def add_num(a,b,c):
-  return a+b+c
+add=lambda x,y,z :x+y+z
 
-res=add_num(2,3,6)
+
+res=add(2,5,6)
 print(res)
